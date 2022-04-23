@@ -1,0 +1,50 @@
+body {
+  background: rgb(108, 192, 231);
+  font: normal 15pt Arial;
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 550px) {
+  header h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
+section {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 32rem;
+  margin: auto;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.37);
+}
+
+@media screen and (max-width: 550px) {
+  section {
+    width: 20rem;
+  }
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: flex-start;
+}
+
+#formButton {
+  width: 6rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-size: 14px;
+}
