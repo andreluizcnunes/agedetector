@@ -67,7 +67,7 @@ function verificar(){
     }
 
     result.style.textAlign = 'center';
-    result.innerHTML = `Detectamos ${genero} com ${idade} anos`;
+    result.innerHTML = `<h3>${genero} com ${idade} anos</h3>`;
     result.appendChild(img);
   }
 }
