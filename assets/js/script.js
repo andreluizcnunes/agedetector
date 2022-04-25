@@ -20,7 +20,7 @@ function verificar(){
       if (idade >=0 && idade < 5) {
         // baby
         img.setAttribute('src', 'assets/img/babyboy.png');
-      } else if (idade >=6 && idade < 12) {
+      } else if (idade >=6 && idade < 13) {
         // criança
         img.setAttribute('src', 'assets/img/criancaboy.png');
       } else if (idade >=13 && idade < 19) {
@@ -45,7 +45,7 @@ function verificar(){
       if (idade >=0 && idade < 5) {
         // baby
         img.setAttribute('src', 'assets/img/babygirl.png');
-      } else if (idade >=6 && idade < 12) {
+      } else if (idade >=6 && idade < 13) {
         // criança
         img.setAttribute('src', 'assets/img/criancagirl.png');
       } else if (idade >=13 && idade < 19) {
